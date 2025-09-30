@@ -42,7 +42,11 @@ Aplikasi ini dibuat untuk memenuhi kebutuhan Kelurahan Karangduren dalam mengars
    <img width="1919" height="928" alt="Cuplikan layar 2025-09-30 154546" src="https://github.com/user-attachments/assets/3689a0b7-8cba-4442-9733-822f7f7cce0b" />
    <img width="1919" height="930" alt="Cuplikan layar 2025-09-30 154600" src="https://github.com/user-attachments/assets/b134ddce-63b3-42ad-84ed-2c4eda6e99b7" />
 9. Menghapus kategori
+    <img width="1919" height="944" alt="Cuplikan layar 2025-09-30 154616" src="https://github.com/user-attachments/assets/9043e13e-f472-4fba-9059-5fe61d25f369" />
     <img width="1919" height="927" alt="Cuplikan layar 2025-09-30 154624" src="https://github.com/user-attachments/assets/15ddf153-cebf-4357-ab06-21fb02055b9b" />
+10. Menampilkan halaman about
+    <img width="1919" height="926" alt="Cuplikan layar 2025-09-30 154640" src="https://github.com/user-attachments/assets/b9f866f7-81aa-4432-8c9b-a625b36cbed5" />
+
 
 
 
