@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="mt-3">About Aplikasi Arsip Surat</h1>
+<hr>
+
+<div class="card p-4">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="{{ foto_url }}" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;" alt="Foto Developer">
+        </div>
+        <div class="col-md-8">
+            <dl class="row">
+                <dt class="col-sm-4">Nama</dt>
+                <dd class="col-sm-8">{{ nama }}</dd>
+                
+                <dt class="col-sm-4">NIM</dt>
+                <dd class="col-sm-8">{{ nim }}</dd>
+                
+                <dt class="col-sm-4">Tanggal Pembuatan Aplikasi</dt>
+                <dd class="col-sm-8">{{ tanggal_pembuatan }}</dd>
+
+                </dl>
+        </div>
+    </div>
+</div>
+
+<a href="{% url 'halaman_utama' %}" class="btn btn-secondary mt-3">Kembali ke Halaman Utama</a>
+{% endblock %}

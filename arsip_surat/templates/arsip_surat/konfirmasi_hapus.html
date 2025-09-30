@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="alert alert-danger mt-3" role="alert">
+    <h4 class="alert-heading">Peringatan Penghapusan!</h4>
+    <p>
+        Anda akan menghapus surat berikut dari arsip:
+    </p>
+    
+    <dl class="row bg-light p-3 rounded">
+        <dt class="col-sm-3">Judul Surat</dt>
+        <dd class="col-sm-9">: {{ surat.judul }}</dd>
+        
+        <dt class="col-sm-3">Nomor Surat</dt>
+        <dd class="col-sm-9">: {{ surat.nomor_surat }}</dd>
+    </dl>
+    
+    <hr>
+    
+    <p class="mb-0">
+        Apakah Anda **yakin** ingin menghapus data ini secara permanen?
+        Jika Anda memilih **Ya**, surat akan dihapus dari database dan file PDF akan dihilangkan.
+    </p>
+</div>
+
+<div class="d-flex justify-content-start mt-4">
+    <form method="POST" action="{% url 'hapus_surat' surat.pk %}">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger me-2">Ya!</button>
+    </form>
+
+    <a href="{% url 'halaman_utama' %}" class="btn btn-secondary">
+        Batal
+    </a>
+</div>
+{% endblock %}
